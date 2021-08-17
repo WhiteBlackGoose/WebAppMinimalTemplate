@@ -1,0 +1,12 @@
+name: 'Aaaa'
+
+on: push
+
+jobs:
+  aaaa:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    
+    - run: |
+        pwd
