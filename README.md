@@ -9,7 +9,7 @@ Meet this repo web app template!
 - ✅ No need to manually deploy the updates
 - ✅ You can make an app even with your smartphone
 
-## How to set up
+## How to set up and use
 
 1. Click "Use this template" in the main page of this repo and set the name for your app
 2. Go to *Settings* -> *Pages* -> *Source* and switch it to `gh-pages`
@@ -17,6 +17,4 @@ Meet this repo web app template!
 4. ???
 5. Profit!
 
-## How to use
-
-Navigate to `Pages/Index.razor` and write there: it's your main page. You can add more if you know Razor and Blazor, of course, but by default it's suited for a single-page app.
+You can keep editing your code in `Pages/index.razor`, it will be automatically updated in your website. Your website will be located at `yourusername.github.io/YourRepoName`
