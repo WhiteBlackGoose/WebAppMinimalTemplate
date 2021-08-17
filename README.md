@@ -11,10 +11,11 @@ Meet this repo web app template!
 
 ## How to set up
 
-1. Click "Use this template" in the main page of this repo
-2. Set the name for your app
-3. ???
-4. Profit!
+1. Click "Use this template" in the main page of this repo and set the name for your app
+2. Go to *Settings* -> *Pages* -> *Source* and switch it to `gh-pages`
+3. Edit your code in `Pages/index.razor` and commit (you can do it from the web interface too!)
+4. ???
+5. Profit!
 
 ## How to use
 
