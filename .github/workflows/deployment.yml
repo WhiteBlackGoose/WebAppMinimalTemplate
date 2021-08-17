@@ -22,7 +22,7 @@ jobs:
         dotnet publish -c release
       
     - name: Change base-tag in index.html from / to the necessary
-      run: sed -i "s/<base href=\"\/\" \/>/<base href=\"\/$(basename pwd)\/\" \/>/g" ./WebApp/bin/release/net5.0/publish/wwwroot/index.html
+      run: sed -i "s/<base href=\"\/\" \/>/<base href=\"\/$(basename $pwd)\/\" \/>/g" ./WebApp/bin/release/net5.0/publish/wwwroot/index.html
       
     - name: Add .nojekyll file
       run: touch ./WebApp/bin/release/net5.0/publish/wwwroot/.nojekyll
